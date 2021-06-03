@@ -2,7 +2,6 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: guestbook-ui
-  namespace: guestbook1
 spec:
   host: guestbook-ui-guestbook1.apps-crc.testing
   port:
